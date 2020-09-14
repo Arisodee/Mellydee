@@ -1,0 +1,101 @@
+<html>
+	<head>
+		<title> Homepage</title>
+		<link rel="stylesheet" href="styles.css">
+		<link rel="stylesheet" href="gallery.css">
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://afeld.github.io/emoji-css/emoji.css">
+	</head>
+
+	<body>
+		<div class="logo">
+				<center> <h1> <a href="homepage.html" style="text-decoration: none; color: black;">Mellydee Cake House
+				 </h1> </center>
+		</div>
+		<hr>
+
+		<div id="navbar">
+			<a href="Index.html">HOME</a>
+			<div class="dropdown">
+				<button class="dropbtn">RECEPIES
+					<i class="fa fa-caret-down"></i>
+				</button>
+				<div class="dropdown-content">
+					<a href="https://www.alsothecrumbsplease.com/authentic-black-forest-cake/">FOREST CAKES</a>
+					<a href="https://www.theworktop.com/breakfast-brunch-recipes/easy-homemade-pound-cake/">POUND CAKES</a>
+					<a href="https://foods4shared.blogspot.com/2019/02/vegan-salted-caramel-chocolate.html">VEGAN CAKES</a>
+				</div>
+			</div>
+			<a href="gallery.html">GALLERY</a>
+			<div class="dropdown">
+				<button class="dropbtn">EVENTS
+					<i class="fa fa-caret-down"></i>
+				</button>
+					<div class="dropdown-content">
+						<a href="wedding.html">WEDDINGS</a>
+						<a href="birthdays.html">BIRTHDAYS</a>
+						<a href="bridalshower.html">BRIDAL SHOWER</a>
+					</div>
+			</div>
+
+		</div>
+		<hr>
+
+		<div class="homeimage"style="font-family: Lucida Handwriting; background-color: white; font-size:24px">
+			<img src="eatcake.jpg" style=" float: left;">
+			<p style="font-style: italic;">
+			We're all about eating cake, making memories and baking the world a better place one cake at a time.<br><br><br>
+			Every cake tells a story, and here at MellyDee CakeHouse we tell it in the best way possible.<br><br><br>
+			Everything is won and lost in the presentation.<br><br><br><br>
+			Bon Appetit!
+			</p>
+		</div>
+		<div class="arrange">
+			<div class="gallery">
+			  <a target="_blank" href="bf1.jpg">
+				<img src="bf1.jpg" alt="Black Forest" title="Kshs. 1000" width="600" height="400">
+			  </a>
+			  <div class="desc">Black Forest <br><br></div>
+			</div>
+
+			<div class="gallery">
+			  <a target="_blank" href="rv2.jpg">
+				<img src="rv2.jpg" alt="Red Velvet" title="Kshs. 1200" width="600" height="400">
+			  </a>
+			  <div class="desc">Red Velvet<br><br></div>
+			</div>
+
+			<div class="gallery">
+			  <a target="_blank" href="bf4.jpg">
+				<img src="bf4.jpg" alt="Chocolate" title="Kshs. 1500" width="600" height="400">
+			  </a>
+			  <div class="desc">Chocolate<br><br></div>
+			</div>
+		</div>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+		<div class="bottombar" style="font-family: Segoe Script; background-color: white;" >
+			<div class="socials" style="float: left;">
+				<a href="https://www.facebook.com/MellydeeCakeHouse/" class="fa fa-facebook" style="padding: 10px; font-size: 30px; width: 50px;text-align: center;text-decoration: none; margin: 5px 2px; background: #3B5998;color: white;   border-radius: 10px;"></a>
+				<a href="https://www.instagram.com/mellydeecakehouse/" class="fa fa-instagram"	style="padding: 10px; font-size: 30px; width: 50px;text-align: center;text-decoration: none; margin: 5px 2px; background: #125688;color: white;   border-radius: 10px;" ></a>
+			</div>
+		</div>
+
+		<script>
+			window.onscroll = function() {myFunction()};
+
+			var navbar = document.getElementById("navbar");
+			var sticky = navbar.offsetTop;
+
+			function myFunction() {
+			  if (window.pageYOffset >= sticky) {
+				navbar.classList.add("sticky")
+			  } else {
+				navbar.classList.remove("sticky");
+			  }
+			}
+		</script>
+
+	</body>
+</html>
